@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 虚拟环境
+.venv/
+
+# 数据库
+*.sqlite3
+*.db
+game.db
+db_snapshots/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 环境变量
+.env
+
+# 工作区缓存
+.workbuddy/
+
+# 生成文件
+generated-images/
+
+# 调试/检查脚本
+_check_*.py
+_check_*.txt
+_fix*.py
+
+# 临时文件
+*.tmp
+*.bak
+*.log

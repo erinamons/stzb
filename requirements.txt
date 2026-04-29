@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+websockets
+sqlalchemy
+pygame-ce
+pygame-gui
+
+pyqt6-sip
