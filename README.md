@@ -138,7 +138,11 @@ python init_db.py  # 全量重置（删除所有数据重建）
 
 ## 截图
 
-> 待补充
+### 游戏客户端
+![游戏客户端](screenshots/game_client.png)
+
+### GM 控制台
+![GM 控制台](screenshots/gm_console.png)
 
 ## 开发规范
 

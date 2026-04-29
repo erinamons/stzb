@@ -30,7 +30,7 @@ def draw_top_bar(screen, client, ui_font, font):
     ]
     rx = 15
     for label, key, color in res_items:
-        val = client.resources[key]
+        val = int(client.resources[key])
         lbl_surf = font.render(label, True, color)
         screen.blit(lbl_surf, (rx, 8))
         val_surf = ui_font.render(f"{val:,}", True, color)
@@ -45,7 +45,7 @@ def draw_top_bar(screen, client, ui_font, font):
     ]
     cx = 15
     for label, key, color in cur_items:
-        val = client.currencies[key]
+        val = int(client.currencies[key])
         lbl_surf = font.render(label, True, color)
         screen.blit(lbl_surf, (cx, 34))
         val_surf = ui_font.render(f"{val:,}", True, color)
